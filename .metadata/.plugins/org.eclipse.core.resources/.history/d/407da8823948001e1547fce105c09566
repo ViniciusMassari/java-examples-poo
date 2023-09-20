@@ -1,0 +1,5 @@
+package interfaces.equipamentos.impressora;
+
+public class Deskjet implements Impressora{
+
+}

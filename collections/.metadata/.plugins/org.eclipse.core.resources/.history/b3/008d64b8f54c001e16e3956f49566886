@@ -1,0 +1,19 @@
+package Ordenacao;
+
+public class Pessoa {
+	private String nome;
+	private double altura;
+	private int idade;
+	
+	public String getNome() {
+		return nome;
+	}
+	public double getAltura() {
+		return altura;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	
+	
+}

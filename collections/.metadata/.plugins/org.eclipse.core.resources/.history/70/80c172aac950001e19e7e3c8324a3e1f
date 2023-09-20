@@ -1,0 +1,11 @@
+package set.OperacoesBasicas;
+
+public class Convidado {
+	private String nome;
+	private String codigoConvite;
+	
+	public Convidado(String nome,Convidado String codigoConvite){
+		this.nome = nome;
+		this.codigoConvite = convite;
+	}
+}

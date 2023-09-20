@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="pilares_poo.MSNMessenger"/>
+    <fullyQualifiedTypeName name="pilares_poo.ServicoMensagemInstantanea"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="interfaces.Digitalizadora"/>
+    <fullyQualifiedTypeName name="interfaces.equipamentos.impressora.Impressora"/>
+    <fullyQualifiedTypeName name="interfaces.equipamentos.impressora.Deskjet"/>
+    <fullyQualifiedTypeName name="interfaces.equipamentos.multifuncional.Multifuncional"/>
+    <fullyQualifiedTypeName name="interfaces.equipamentos.digitalizadora.Digitalizadora"/>
+    <fullyQualifiedTypeName name="interfaces.equipamentos.copiadora.Copiadora"/>
+</qualifiedTypeNameHistroy>

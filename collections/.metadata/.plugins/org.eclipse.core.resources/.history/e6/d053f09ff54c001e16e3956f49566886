@@ -1,0 +1,12 @@
+package Ordenacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class OrdenacaoPessoas {
+	private List<Pessoa> listaPessoas;
+	
+	public OrdenacaoPessoas(){
+		this.listaPessoas = new ArrayList<Pessoa>();
+	}
+}

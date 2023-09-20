@@ -1,0 +1,36 @@
+package map.OperacoesBasicas;
+
+import java.util.Map;
+import java.util.HashMap;
+
+public class AgendaContatos {
+	private Map<String, Integer> agendaDeContatos;
+
+	public AgendaContatos() {
+		this.agendaDeContatos = new HashMap<String, Integer>();
+	}
+	
+	public void adicionarContato(String nome, Integer telefone){
+		agendaDeContatos.put(nome,telefone);
+	}
+	
+	
+	public void exibirContatos(){
+		System.out.println(agendaDeContatos);
+	}
+	
+	public Map<String, Integer> pesquisarPorNome(String nome){
+		Map<String, Integer> contatosPorNome = new HashMap<>();
+		
+		}
+		
+		return contatosPorNome;
+	}
+	
+	public Contato atualizarNumeroContato(String nome, int novoNumero){
+		Contato contatoParaAtualizar = null;
+		
+		
+		return contatoParaAtualizar;
+	}
+}

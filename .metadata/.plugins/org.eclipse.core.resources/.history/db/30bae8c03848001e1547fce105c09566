@@ -1,0 +1,5 @@
+package interfaces.equipamentos.copiadora.copy;
+
+public class Xerox extends Copiadora{
+
+}

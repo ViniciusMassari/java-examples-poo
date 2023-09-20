@@ -1,0 +1,40 @@
+package Ordenacao;
+
+public class Pessoa implements Comparable<Pessoa>{
+	private String nome;
+	private double altura;
+	private int idade;
+	
+	public Pessoa(String nome, int idade, double altura) {
+		this.nome = nome;
+		this.altura = altura;
+		this.idade = idade;
+	}
+	
+	@Override
+	public int compareTo(Pessoa p) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	public double getAltura() {
+		return altura;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	
+	
+	
+
+	@Override
+	public String toString() {
+		return " " + nome + " " + altura + " " + idade ;
+	}
+	
+	
+
+}

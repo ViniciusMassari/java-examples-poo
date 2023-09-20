@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\stone\eclipse-workspace\poo\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+435225591.index
+1378469839.index

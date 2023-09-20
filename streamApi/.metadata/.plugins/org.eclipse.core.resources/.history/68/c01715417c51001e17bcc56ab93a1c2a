@@ -1,0 +1,9 @@
+package functionalInterfaces;
+
+import java.util.List;
+
+public class ConsumerExample {
+	public static void main(String[] args) {
+		List<Integer> numeros = Array.asl
+	}
+}

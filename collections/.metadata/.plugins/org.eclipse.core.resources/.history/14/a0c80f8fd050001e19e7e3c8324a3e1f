@@ -1,0 +1,14 @@
+package set.Pesquisa;
+
+import java.util.Set;
+import java.util.HashSet;
+
+public class AgendaContatos {
+	Set<Contato> agendaDeContatos;
+
+	public AgendaContatos() {
+		this.agendaDeContatos = new HashSet<Contato>();
+	}
+	
+	
+}

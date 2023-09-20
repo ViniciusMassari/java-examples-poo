@@ -1,0 +1,7 @@
+package interfaces.equipamentos.digitalizadora.copy;
+
+public class Digitalizadora {
+	public void digitalizar(){
+		System.out.println("digitalizando");
+	};
+}

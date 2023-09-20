@@ -1,0 +1,18 @@
+package set.OperacoesBasicas;
+
+import java.util.Set;
+import java.util.HashSet;
+public class ConjuntoConvidados {
+	private Set<Convidado> convidadosSet;
+
+	public ConjuntoConvidados() {
+		this.convidadosSet = new HashSet<Convidado>();
+	}
+	
+	public void adicionarConvidado(String nome, int codigoConvite){
+		convidadosSet.add(new Convidado(nome, codigoConvite));
+	}
+	
+	
+	
+}

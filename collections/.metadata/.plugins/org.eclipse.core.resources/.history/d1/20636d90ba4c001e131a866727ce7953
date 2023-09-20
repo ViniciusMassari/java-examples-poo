@@ -1,0 +1,5 @@
+package list.Pesquisa;
+
+public class SomaNumeros {
+	private List<int> listaNumeros = new ArrayList<int>(1,2,3,10,50,490,80);
+}

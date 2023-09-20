@@ -1,0 +1,14 @@
+package Ordenacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class OrdenacaoNumeros implements Comparable<Integer>{
+	private List<Integer> listaNumeros;
+	
+	private OrdenacaoNumeros(){
+		this.listaNumeros = new ArrayList<>();
+		
+		
+	}
+}

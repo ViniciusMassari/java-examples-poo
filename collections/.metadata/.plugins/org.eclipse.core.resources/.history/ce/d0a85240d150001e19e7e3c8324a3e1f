@@ -1,0 +1,17 @@
+package set.Pesquisa;
+
+import java.util.Set;
+import java.util.HashSet;
+
+public class AgendaContatos {
+	Set<Contato> agendaDeContatos;
+
+	public AgendaContatos() {
+		this.agendaDeContatos = new HashSet<Contato>();
+	}
+	
+	public void adicionarContato(String nome, int numero){
+		agendaDeContatos.add(new Contato(nome, numero));
+	}
+	
+}

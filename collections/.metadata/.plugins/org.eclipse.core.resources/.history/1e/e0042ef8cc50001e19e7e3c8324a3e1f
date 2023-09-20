@@ -1,0 +1,37 @@
+package set.OperacoesBasicas;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConjuntoPalavrasUnicas {
+		private Set<String> conjuntoDePalavras;
+	
+	public ConjuntoPalavrasUnicas(){
+		this.conjuntoDePalavras = new HashSet<String>();
+	}
+	
+	public void adicionarPalavra(String novaPalavra){
+		conjuntoDePalavras.add(novaPalavra);
+	}
+	
+	public void removerPalavra(String palavra){
+		String palavraParaRemover = "";
+		for(String p : conjuntoDePalavras ) {
+			if(p == palavra) {
+				palavraParaRemover = p;
+				break;
+			}
+			conjuntoDePalavras.remove(palavraParaRemover);
+		}
+	}
+	
+	public void verificarPalavra(String palavra){
+		for(String p : conjuntoDePalavras ) {
+			if(p == palavra) {
+				System.out.println("A palavra existe");
+				break;
+			}
+			conjuntoDePalavras.remove(palavraParaRemover);
+		}
+	}
+}

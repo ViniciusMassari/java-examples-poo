@@ -1,0 +1,12 @@
+package estabelecimento;
+
+import interfaces.equipamentos.impressora.Deskjet;
+import interfaces.equipamentos.impressora.Impressora;
+import interfaces.equipamentos.multifuncional.Multifuncional;
+
+public class Fabrica {
+public static void main(String[] args) {
+	Impressora impressora = new Multifuncional();
+	impressora.imprimir();
+}
+}

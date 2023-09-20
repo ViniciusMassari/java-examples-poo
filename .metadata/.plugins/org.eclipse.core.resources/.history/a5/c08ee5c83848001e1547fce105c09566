@@ -1,0 +1,5 @@
+package interfaces.equipamentos.impressora.copy;
+
+public class Deskjet extends Impressora{
+
+}

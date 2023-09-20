@@ -1,0 +1,20 @@
+package list.Pesquisa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SomaNumeros {
+	private List<Integer> listaNumeros;
+	
+	public SomaNumeros(){
+		this.listaNumeros = new ArrayList<>();
+	}
+	
+	public void adicionarNumero(int numero){
+		this.getListaNumeros().add(numero);
+	}
+	
+	public List<Integer> getListaNumeros(){
+		return this.listaNumeros;
+	}
+}

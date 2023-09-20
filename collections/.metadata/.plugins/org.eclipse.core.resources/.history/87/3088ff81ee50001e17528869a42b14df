@@ -1,0 +1,53 @@
+package map.Ordenacao;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class EstoqueProdutos {
+	private Map<Long, Produto> produtosMap;
+
+	public EstoqueProdutos() {
+		this.produtosMap = new HashMap<>();
+	}
+	
+	
+	public void adicionarProduto(long codigo, String nome, int quantidade, double preco){
+		produtosMap.put(codigo, new Produto(nome,quantidade,preco));
+	}
+	
+	public void exibirProdutos(){
+		System.out.println(produtosMap);
+	}
+	
+	public double calcularValorTotalEstoque(){
+		if(!produtosMap.isEmpty()){
+			double valorTotalEstoque = 0;
+			for(Produto p : produtosMap.values()){
+				valorTotalEstoque += (p.getPreco() * p.getQuantidade());
+			}
+			
+			return valorTotalEstoque;
+		}
+		return 0;
+	}
+	
+	
+	public Produto obterProdutoMaisCaro(){
+		double preco = 0;
+		if(!produtosMap.isEmpty()){
+			
+			Produto produtoMaisCaro;
+			for(Produto p : produtosMap.values()){
+				if(p.getPreco() > preco){
+					preco = p.getPreco();
+				}
+			}
+			return preco;
+		}
+		
+	
+	}
+	
+
+	
+}

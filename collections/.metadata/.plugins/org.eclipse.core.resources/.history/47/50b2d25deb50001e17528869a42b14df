@@ -1,0 +1,14 @@
+package map.Ordenacao;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class EstoqueProdutos {
+	private Map<Long, Produto> produtosMap;
+
+	public EstoqueProdutos() {
+		this.produtosMap = new HashMap();
+	}
+	
+	
+}

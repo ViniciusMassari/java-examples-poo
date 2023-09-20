@@ -1,0 +1,9 @@
+package set.OperacoesBasicas;
+
+public class ConjuntoPalavrasUnicas {
+		private Set<String> conjuntoDePalavras;
+	
+	public ConjuntoPalavrasUnicas(){
+		this.conjuntoDePalavras = new HashSet<String>();
+	}
+}
